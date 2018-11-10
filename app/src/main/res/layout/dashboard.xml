@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+  <Button
+      android:id="@+id/audios"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/size_16dp"
+      android:text="@string/audios"
+      />
+
+  <Button
+      android:id="@+id/videos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/size_16dp"
+      android:layout_toEndOf="@+id/audios"
+      android:text="@string/videos"
+      />
+
+  <Button
+      android:id="@+id/photos"
+      android:layout_width="wrap_content"
+      android:layout_margin="@dimen/size_16dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/audios"
+      android:text="@string/photos"
+      />
+
+  <Button
+      android:id="@+id/settings"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/size_16dp"
+      android:layout_below="@+id/videos"
+      android:layout_toEndOf="@id/photos"
+      android:text="@string/settings"
+      />
+
+</RelativeLayout>
